@@ -31,10 +31,10 @@ def generate_text(text):
     return output
 
 def update_description(text):
-    consumer_key = "kfPiWOWRcHuWKgMdndnFr0RP0"
+    consumer_key = "N6NxQu8keRy7RpIx8fvx07zjs"
     consumer_secret = os.environ['TWITTER_COMSUMER_SECRET']
-    access_token = "1179190262-sTeCsUVdPTj8nDNVY8BXOCW4N7p4Yiq34PlEj22"
-    access_token_secret = os.environ['TWITTER_TOKEN_SECRET']
+    access_token = os.environ['TWITTER_ACCESS_TOKEN']
+    access_token_secret = os.environ['TWITTER_ACCESS_SECRET']
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
