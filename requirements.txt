@@ -1,0 +1,5 @@
+ipython==8.5.0
+transformers==4.22.2
+sentencepiece==0.1.97
+torch==1.12.1
+tweepy==4.10.1
